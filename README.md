@@ -19,7 +19,7 @@ Download dataset and calibration data and place all files in right Datasets subd
 1. ROS officially supports only python2 so install python2
 2. Install ROS. Full ROS installation (as explained above) contains python-rosbag which independently installed might not work.
 3. If you are using Anaconda you may need to install catkin_pkg ```~/anaconda2/bin/conda install -c auto catkin_pkg```
-4. As I always used Anacaonda3 (python 3.x) I had to install dependecies such as OpenCV. There was some issues, so see [Installing OpenCV for Anaconda2](#Installing OpenCV for Anaconda2) of proper way to do it.
+4. As I always used Anacaonda3 (python 3.x) I had to install dependecies such as OpenCV. There was some issues, so see "Installing OpenCV for Anaconda2" of proper way to do it.
 5. Example of how to load .bag file can be found python/load_bag_example.ipynb
 
 ##### Installing OpenCV for Anaconda2
